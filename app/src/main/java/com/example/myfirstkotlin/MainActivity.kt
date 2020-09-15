@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         this.numberSelect=this.findViewById(R.id.number_select) as NumberSelect
         this.numberSelect.setListener(object : NumberSelectListener {
             override fun onValueChange(value: Int) {
-                Log.d("onValueChange",value.toString())
+                Log.d("onValueChange......",value.toString())
             }
         })
 
